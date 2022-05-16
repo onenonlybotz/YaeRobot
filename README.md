@@ -1,20 +1,20 @@
 <p align="center">
-    <a href="https://github.com/noob-kittu/YaeRobot/stargazers"><img src="https://img.shields.io/github/stars/noob-kittu/YaeRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/RimuruDemonlord/YaeRobot/stargazers"><img src="https://img.shields.io/github/stars/RimuruDemonlord/YaeRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://github.com/noob-kittu/YaeRobot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YaeRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/noob-kittu/YaeRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/noob-kittu/YaeRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/noob-kittu/YaeRobot/issues"> <img src="https://img.shields.io/github/issues/noob-kittu/YaeRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/noob-kittu/YaeRobot/network/members"> <img src="https://img.shields.io/github/forks/noob-kittu/YaeRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://github.com/RimuruDemonlord/YaeRobot"> <img src="https://img.shields.io/github/repo-size/RimuruDemonlord/YaeRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/RimuruDemonlord/YaeRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/RimuruDemonlord/YaeRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/RimuruDemonlord/YaeRobot/issues"> <img src="https://img.shields.io/github/issues/RimuruDemonlord/YaeRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/RimuruDemonlord/YaeRobot/network/members"> <img src="https://img.shields.io/github/forks/RimuruDemonlord/YaeRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/7e61fe06a9c02747249c4.jpg">
+  <img src="https://telegra.ph//file/aae78d09ee47dcb56985f.jpg">
 </p>
 
 # YaeRobot
-Me On Telegram [✨Yae✨](https://t.me/Yae_Robot)
+Me On Telegram [✨Yae✨](https://t.me/YaeXRobot)
 
 ## How To Host
 The easiest way to deploy this Bot
