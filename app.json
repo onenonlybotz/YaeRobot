@@ -29,52 +29,52 @@
     "TOKEN": {
        "description": "Your bot token. Get one from @BotFather duh",
        "required": true,
-       "value": "5010146914:AAELpAHGKvDpeR1TJq2pFhudPiqgW9F8dSA"
+       "value": ""
     },
     "API_ID": {
        "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
        "required": true,
-       "value": "17789594"
+       "value": ""
     },
     "API_HASH": {
        "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
        "required": true,
-       "value": "ab1b831edb2bd32905d6572ce621f678"
+       "value": ""
     },    
     "SQLALCHEMY_DATABASE_URI": {
        "description": "Your postgres sql db, empty this field if you dont have one.",
        "required": false,
-       "value": "postgresql://oxbwniwl:EIoFGXvudIGKycBTjPotyos_-1cfbUqN@chunee.db.elephantsql.com/oxbwniwl"
+       "value": ""
     },      
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
-       "value": "5132611794"
+       "value": ""
     },
 
     "BOT_NAME": {
        "description": "Insert below your bot, it will appear everywhere",
        "required": true,
-       "value": "Yae Miko 剣"
+       "value": ""
     },
     "OWNER_USERNAME": {
        "description": "Your username without the @",
-       "value": "Xelcius"
+       "value": ""
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
        "required": true,
-       "value": "Anime_Chat_XKaizuryu"
+       "value": ""
     },      
     "PHOTO": {
        "description": "Your Telegram Bot Image (Add Link Only).",
        "required": true,
-       "value": "https://telegra.ph/file/e49fc8b774c8807f0a417.jpg"
+       "value": ""
     },      
     "DEV_USERS": {
        "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
        "required": false,
-       "value": "5132611794"
+       "value": ""
     },
     "INSPECTOR": {
        "description": "A space separated list of user IDs who you want to assign as inspector users.",
@@ -103,7 +103,7 @@
     "URL": {
        "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
        "required": false,
-       "value": "https://miko-yae.herokuapp.com/"
+       "value": ""
     },
     "No_LOAD": {
        "description": "Dont load these modules cause they shit, space separation",
