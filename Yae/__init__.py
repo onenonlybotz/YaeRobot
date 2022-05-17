@@ -2,7 +2,7 @@ import logging, os, sys, time
 import telegram.ext as tg
 from telethon.sessions import MemorySession
 from telethon import TelegramClient
-
+from redis import StrictRedis
 
 StartTime = time.time()
 
@@ -101,6 +101,24 @@ else:
     PORT = Config.PORT
     URL = Config.URL
 
+REDIS_URL = "redis://:V6OvHLvjEnbLzo3VKY7l1TmvA39q0zn2@redis-11612.c240.us-east-1-3.ec2.cloud.redislabs.com:11612"
+
+
+REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
+
+try:
+
+    REDIS.ping()
+
+    LOGGER.info("Connecting To Redis Database")
+
+except BaseException:
+
+    raise Exception("[ERROR]: Your Redis Database Is Not Alive, Please Check Again.")
+
+finally:
+
+   REDIS.ping()
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
