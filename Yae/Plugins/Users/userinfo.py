@@ -22,7 +22,7 @@ from Yae.__help__ import STATS, USER_INFO
 import Yae.Database.userinfo_sql as sql
 from Yae.Plugins.disable import DisableAbleCommandHandler
 from Yae.Database.global_bans_sql import is_user_gbanned
-from Yae.Database.afk_sql import is_afk, check_afk_status
+from Yae.Database.afk_redis import is_user_afk, afk_reason
 from Yae.Database.users_sql import get_user_num_chats
 from Yae.Handlers.validation import sudo_plus, user_admin, support_plus
 from Yae.Handlers.extraction import extract_user
@@ -71,8 +71,8 @@ def hpmanager(user):
         if not sql.get_user_bio(user.id):
             new_hp -= no_by_per(total_hp, 10)
 
-        if is_afk(user.id):
-            afkst = check_afk_status(user.id)
+        if is_user_afk(user.id):
+            afkst = afk_reason(user.id)
             # if user is afk and no reason then decrease 7%
             # else if reason exist decrease 5%
             if not afkst.reason:
@@ -274,7 +274,7 @@ def info(update: Update, context: CallbackContext):
     if chat.type != "private" and user_id != bot.id:
         _stext = "\n┣|• Presence: <code>{}</code>"
 
-        afk_st = is_afk(user.id)
+        afk_st = is_user_afk(user.id)
         if afk_st:
             text += _stext.format("AFK")
         else:
