@@ -92,7 +92,10 @@ Thᴇsᴇ Arᴇ Thᴇ Pᴏwᴇrs I Pᴏssᴇs -
 ‣ Nᴏᴛᴇ ᴋᴇᴇᴩing sysᴛᴇʍ.
 ‣ Filᴛᴇrs ᴋᴇᴇᴩing sysᴛᴇʍ.
 ‣ Aᴩᴩrᴏvᴀls ᴀnd ʍuᴄh ʍᴏrᴇ.
-
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+× *Uptime:* {}
+× {} *users, across* {} *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
 Lᴇᴛ's Nᴏᴛ Wᴀiᴛ Any Lᴏngᴇr
 *Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
 """
