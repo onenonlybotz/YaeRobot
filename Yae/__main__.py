@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hi Thᴇrᴇ Bᴀʙᴇ! I'ʍ Yᴀᴇ Miᴋᴏ [✨](https://telegra.ph/file/e49fc8b774c8807f0a417.jpg)
+PM_START_TEXT = """ Hi Thᴇrᴇ Bᴀʙᴇ! I'ʍ Yᴀᴇ Miᴋᴏ [✨](https://telegra.ph/file/69ca2036c38de91e8d2e7.jpg)
 A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On Gᴇnshin Iʍᴩᴀᴄᴛ Thᴇʍᴇ.
 Thᴇsᴇ Arᴇ Thᴇ Pᴏwᴇrs I Pᴏssᴇs -
 ‣ Wᴀrning sysᴛᴇʍ.
