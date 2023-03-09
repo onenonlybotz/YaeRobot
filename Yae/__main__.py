@@ -93,7 +93,8 @@ PM_START_TEXT = """
 ‣ Filᴛᴇrs ᴋᴇᴇᴩing sysᴛᴇʍ.
 ‣ Aᴩᴩrᴏvᴀls ᴀnd ʍuᴄh ʍᴏrᴇ.
 Lᴇᴛ's Nᴏᴛ Wᴀiᴛ Any Lᴏngᴇr
-*Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
+
+*Aᴅᴅ Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
 """
 
 
@@ -166,9 +167,9 @@ def start(update: Update, context: CallbackContext):
             text="🖤 𝐀ᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ 𝐆ʀᴏᴜᴘ 🥀", url=f"https://t.me/{context.bot.username}?startgroup=true"),    
     ],
     [
-        InlineKeyboardButton(text="🔸 𝐔ᴘᴅᴀᴛᴇ𝐬", url=f"https://t.me/xelcius"),
+        InlineKeyboardButton(text="🔸 𝐔ᴘᴅᴀᴛᴇ𝐬", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="Bᴏᴛ Iɴғᴏ", callback_data="Yae_"
+            text="Bᴏᴛ Iɴғᴏ ❔", callback_data="Yae_"
         ),
     ],
     [
@@ -233,8 +234,8 @@ def Yae_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/Anime_Chat_XKaizuryu"),
-                     InlineKeyboardButton(text="News", url="https://t.me/TheKaizuryu")
+                     InlineKeyboardButton(text="Support", url="https://t.me/Team_bot_update"),
+                     InlineKeyboardButton(text="News", url="https://t.me/team_bot_support")
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="Yae_back")
@@ -249,22 +250,16 @@ def Yae_about_callback(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add Mᴇ Tᴏ Yᴏur Chᴀᴛ Grᴏuᴩ ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="🖤 𝐀ᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ 𝐆ʀᴏᴜᴘ 🥀", url=f"https://t.me/{context.bot.username}?startgroup=true"),    
     ],
     [
-        InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
+        InlineKeyboardButton(text="🔸 𝐔ᴘᴅᴀᴛᴇ𝐬", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="Bᴏᴛ Iɴғᴏ ❔", callback_data="Yae_"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
-        InlineKeyboardButton(
-            text="Yᴀᴇ Infᴏ", callback_data="Yae_"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="⚒️ 𝐀ʟʟ 𝐂ᴏᴍᴍᴀɴᴅ𝐬 ⚒️", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
