@@ -83,9 +83,9 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hi Thᴇrᴇ Bᴀʙᴇ! I'ʍ Yᴀᴇ Miᴋᴏ [✨](https://telegra.ph/file/69ca2036c38de91e8d2e7.jpg)
-A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On Gᴇnshin Iʍᴩᴀᴄᴛ Thᴇʍᴇ.
-Thᴇsᴇ Arᴇ Thᴇ Pᴏwᴇrs I Pᴏssᴇs -
+PM_START_TEXT = """
+*𝐇ᴏʟᴀ {} !* [✨](https://telegra.ph/file/98732a8fdf35d09552d33.jpg)
+𝐈 𝐀ᴍ 𝐀ɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ 𝐀 ʟᴏᴛ ᴏғ ᴄᴏᴏʟ 𝐅ᴇᴀᴛᴜʀᴇs.
 ‣ Wᴀrning sysᴛᴇʍ.
 ‣ Arᴛifiᴄiᴀl inᴛᴇlligᴇnᴄᴇ.
 ‣ Flᴏᴏd ᴄᴏnᴛrᴏl sysᴛᴇʍ.
@@ -163,22 +163,16 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add Mᴇ Tᴏ Yᴏur Chᴀᴛ Grᴏuᴩ ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="🖤 𝐀ᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ 𝐆ʀᴏᴜᴘ 🥀", url=f"https://t.me/{context.bot.username}?startgroup=true"),    
     ],
     [
-        InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
+        InlineKeyboardButton(text="🔸 𝐔ᴘᴅᴀᴛᴇ𝐬", url=f"https://t.me/xelcius"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="Bᴏᴛ Iɴғᴏ", callback_data="Yae_"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
-        InlineKeyboardButton(
-            text="Yᴀᴇ Infᴏ", callback_data="Yae_"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="Hᴇlᴩ & Cᴏʍʍᴀnds❔", callback_data="help_back"),
+        InlineKeyboardButton(text="⚒️ 𝐀ʟʟ 𝐂ᴏᴍᴍᴀɴᴅ𝐬 ⚒️", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
