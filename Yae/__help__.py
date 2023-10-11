@@ -10,7 +10,7 @@ from telegram.ext.dispatcher import DispatcherHandlerStop
 from os.path import isfile
 
 
-HELP_STRINGS = """Hi Bᴀᴇ! I'ʍ *A Bot*[.](https://telegra.ph/file/69ca2036c38de91e8d2e7.jpg)
+HELP_STRINGS = """Hi Bᴀᴇ! I'ʍ *DABANG ROBOT*[.](https://graph.org/file/c3cf5ca2ab9a041a22673.jpg)
 I'ʍ ᴀ ʍᴏdulᴀr grᴏuᴩ ʍᴀnᴀgᴇʍᴇnᴛ ʙᴏᴛ wiᴛh ᴀ fᴇw fun ᴇxᴛrᴀs! Hᴀvᴇ ᴀ lᴏᴏᴋ ᴀᴛ ᴛhᴇ fᴏllᴏwing fᴏr ᴀn idᴇᴀ ᴏf sᴏʍᴇ ᴏf ᴛhᴇ ᴛhings I ᴄᴀn hᴇlᴩ yᴏu wiᴛh. """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
